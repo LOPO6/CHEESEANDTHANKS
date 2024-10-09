@@ -1,0 +1,378 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\views\\shop\\bycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\views\\shop\\bycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\wwwroot\\js\\sorttable.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\wwwroot\\js\\sorttable.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\data\\migrations\\20240930132206_createtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\data\\migrations\\20240930132206_createtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|c:\\users\\logan\\onedrive\\documents\\university stuff 2023\\year-2\\1st-semester\\comp2084\\week-2\\cheeseandthankyou\\cheeseandthankyou\\data\\migrations\\20240930134459_renameimagephoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C5D9E-EBC7-4204-961A-5F5A50433DF0}|CheeseAndThankYou\\CheeseAndThankYou.csproj|solutionrelative:cheeseandthankyou\\data\\migrations\\20240930134459_renameimagephoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "CheeseAndThankYou\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T13:38:20.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Product.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Models\\Product.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:32:48.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:49:38.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CheeseAndThankYou\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-07T12:41:40.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "CheeseAndThankYou\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T12:46:19.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:30:03.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CheeseAndThankYou\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T13:37:32.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "CheeseAndThankYou\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T12:13:07.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ByCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Shop\\ByCategory.cshtml",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Views\\Shop\\ByCategory.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Shop\\ByCategory.cshtml",
+              "RelativeToolTip": "CheeseAndThankYou\\Views\\Shop\\ByCategory.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T12:30:04.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:44:45.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240930132206_createTables.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Data\\Migrations\\20240930132206_createTables.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Data\\Migrations\\20240930132206_createTables.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Data\\Migrations\\20240930132206_createTables.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Data\\Migrations\\20240930132206_createTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:22:06.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:34:07.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:12:10.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\appsettings.json",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\appsettings.json",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\appsettings.json",
+              "RelativeToolTip": "CheeseAndThankYou\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-30T13:18:50.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CheeseAndThankYou\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T13:38:43.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "sorttable.js",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\js\\sorttable.js",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\wwwroot\\js\\sorttable.js",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\js\\sorttable.js",
+              "RelativeToolTip": "CheeseAndThankYou\\wwwroot\\js\\sorttable.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-07T12:44:13.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Category.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:39:18.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240930134459_renameImagePhoto.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Data\\Migrations\\20240930134459_renameImagePhoto.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Data\\Migrations\\20240930134459_renameImagePhoto.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Data\\Migrations\\20240930134459_renameImagePhoto.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Data\\Migrations\\20240930134459_renameImagePhoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:44:59.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cartitem.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Cartitem.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Models\\Cartitem.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Cartitem.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Models\\Cartitem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:36:32.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:09:16.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\Order.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Models\\Order.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA4wDQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:37:01.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "CheeseAndThankYou\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "CheeseAndThankYou\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:37:17.016Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
