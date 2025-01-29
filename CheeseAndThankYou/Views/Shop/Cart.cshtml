@@ -1,0 +1,81 @@
+﻿@model IEnumerable<CheeseAndThankYou.Models.Cartitem>
+
+@{
+    ViewData["Title"] = "Cart";
+    decimal total = 0;
+}
+
+
+<h1>Cart</h1>
+
+@if(Model.Count() > 0)
+{
+   <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Product)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+            
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) 
+    {
+                total += (item.Quantity * item.Price);
+            <tr>
+                 <td>
+                   @Html.DisplayFor(modelItem => item.Product.Name)
+                        <div>
+                            @if (item.Product.Photo != null)
+                            {
+                                <img src="~/img/products/@item.Product.Photo" alt="@item.Product.Name" class="thumb" />
+                            }
+                            else
+                            {
+                                <img src="~/img/placeholder.gif" alt="@item.Product.Name" class="thumb" />
+                            }
+                        </div>
+                </td>
+                <td> <!-- creating a selector for the amount of a product-->
+                    <form method="post" action="UpdateQuantity">
+                        <input name="quantity" value="@item.Quantity" type="number" min="1" required class="inputSmall"/>
+                        <input name="CartItemId" value="@item.CartItemId" type="hidden"/>
+                        <button class="btn btn-primary">Update</button>
+                    </form>
+                </td>
+                <td>
+                    @String.Format("{0:c}", item.Price)
+                </td>
+            
+                <td>
+      
+                    <a asp-action="RemoveFromCart" asp-route-id="@item.CartItemId">Remove</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+    <div class="flex-fill float-end">
+        <div class="flex-column">
+            <h4>Total: @String.Format("{0:c}", total)</h4>
+            <div>
+                <a asp-action="Index" class="btn btn-primary">Continue Shopping</a>
+                <a asp-action="Checkout" class="btn btn-primary">Checkout</a>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h2>You look like you cuold use some Cheese!</h2>
+    <a asp-action="Index" class="btn btn-primary">Find me Cheese!</a>
+}
+

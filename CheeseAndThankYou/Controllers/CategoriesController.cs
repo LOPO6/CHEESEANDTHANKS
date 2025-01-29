@@ -7,9 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CheeseAndThankYou.Data;
 using CheeseAndThankYou.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CheeseAndThankYou.Controllers
 {
+    // restrict to authenticated users only (level 1)
+    // [Authorize]
+    // restrict to Administrator role only (level 2)
+    [Authorize(Roles = "Administrator")]
     public class CategoriesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,7 +27,7 @@ namespace CheeseAndThankYou.Controllers
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Categories.ToListAsync());
+            return View("Index", await _context.Categories.ToListAsync());
         }
 
         // GET: Categories/Details/5
@@ -30,17 +35,19 @@ namespace CheeseAndThankYou.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                // show not found page instead of just sending 404 status code w/o html response
+                return View("404"); // NotFound();
             }
 
             var category = await _context.Categories
                 .FirstOrDefaultAsync(m => m.CategoryId == id);
             if (category == null)
             {
-                return NotFound();
+                // show not found page instead of just sending 404 status code w/o html response
+                return View("404"); // NotFound();
             }
 
-            return View(category);
+            return View("Details", category);
         }
 
         // GET: Categories/Create
@@ -131,7 +138,7 @@ namespace CheeseAndThankYou.Controllers
                 return NotFound();
             }
 
-            return View(category);
+            return View("Delete", category);
         }
 
         // POST: Categories/Delete/5

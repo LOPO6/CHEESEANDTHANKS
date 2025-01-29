@@ -17,5 +17,8 @@ namespace CheeseAndThankYou.Models
 
         [Required]
         public int ProductId { get; set; }
+
+        //parent key
+        public Product Product { get; set; }
     }
 }

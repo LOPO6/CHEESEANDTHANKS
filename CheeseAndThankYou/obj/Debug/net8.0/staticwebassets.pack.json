@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\img\\cheeseAndThankYouLogo.png",
+      "PackagePath": "staticwebassets\\img\\cheeseAndThankYouLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\img\\placeholder.gif",
+      "PackagePath": "staticwebassets\\img\\placeholder.gif"
+    },
+    {
+      "Id": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\img\\products\\611a408e-71cc-467c-9f11-8efd8433b559-fee8c33d-1ffa-4f06-927e-68c88656cabc-brie.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\611a408e-71cc-467c-9f11-8efd8433b559-fee8c33d-1ffa-4f06-927e-68c88656cabc-brie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\img\\products\\a97d2145-cda5-4145-88dc-793f1125f421-98ce2ef2-faae-4dbc-b08d-4947d6a68913-edam.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\a97d2145-cda5-4145-88dc-793f1125f421-98ce2ef2-faae-4dbc-b08d-4947d6a68913-edam.jpg"
+    },
+    {
       "Id": "C:\\Users\\logan\\OneDrive\\Documents\\University Stuff 2023\\Year-2\\1st-semester\\COMP2084\\week-2\\CheeseAndThankYou\\CheeseAndThankYou\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

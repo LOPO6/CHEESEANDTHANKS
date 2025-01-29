@@ -11,8 +11,31 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>() //enable role-based authentication
     .AddEntityFrameworkStores<ApplicationDbContext>();
+           
 builder.Services.AddControllersWithViews();
+
+//enable Google auth
+//let our app read from appsettings or Axure Env Vars
+var configuration = builder.Configuration;
+
+builder.Services.AddAuthentication()
+    .AddGoogle(options =>
+     {
+         options.ClientId = configuration["Authentication:Google:ClientID"];
+         options.ClientSecret = configuration["Authentication:Google:ClientSecret"];
+
+     })
+    .AddGitHub(options =>
+     {
+         options.ClientId = configuration["Authentication:Github:ClientID"];
+         options.ClientSecret = configuration["Authentication:Github:ClientSecret"];
+     });
+
+builder.Services.AddSession();
+
+
 
 var app = builder.Build();
 
@@ -39,5 +62,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
+//session support
+app.UseSession();
 
 app.Run();

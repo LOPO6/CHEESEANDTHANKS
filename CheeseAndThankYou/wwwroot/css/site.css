@@ -54,6 +54,18 @@ li{
 }
 .card {
     text-align: center;
-    height: 300px;
+    height: 100px;
+}
+
+.thumb{
+    width: 85px;
+}
+
+.inputSmall{
+    width: 90px;
+}
+
+.badge-secondary{
+    background-color: dimgray;
 }
 

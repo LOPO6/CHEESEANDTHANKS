@@ -34,12 +34,24 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Price)
         </dd>
+
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Photo)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Photo)
+
+        <dd class="col-sm-10">
+            @if (Model.Photo != null)
+            {
+                <img src="~/img/products/@Model.Photo" alt="Product Image" class="thumb" />
+
+            }
+            else
+            {
+                <img src="~/img/placeholder.gif" alt="@Model.Name" class="thumb" />
+            }
+
         </dd>
+
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Size)
         </dt>
@@ -54,7 +66,10 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.ProductId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+@if (User.IsInRole("Administrator"))
+{
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.ProductId">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+}

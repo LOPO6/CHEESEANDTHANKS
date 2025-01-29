@@ -7,9 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CheeseAndThankYou.Data;
 using CheeseAndThankYou.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CheeseAndThankYou.Controllers
 {
+    // restrict to authenticated users only (level 1)
+    // [Authorize]
+    // restrict to Administrator role only (level 2)
+    [Authorize(Roles = "Administrator")]
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,13 +25,14 @@ namespace CheeseAndThankYou.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index() 
+        public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Products.Include(p => p.Category).OrderBy(p => p.Name);
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: Products/Details/5
+        // GET: Products/Details/5 
+        [AllowAnonymous] // make this action public, overriding class level auth
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -48,7 +54,7 @@ namespace CheeseAndThankYou.Controllers
         // GET: Products/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories.OrderBy(c=>c.Name), "CategoryId", "Name");
+            ViewData["CategoryId"] = new SelectList(_context.Categories.OrderBy(c => c.Name), "CategoryId", "Name");
             return View();
         }
 
@@ -57,10 +63,17 @@ namespace CheeseAndThankYou.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,Name,StinkRating,Description,Price,Photo,Size,CategoryId")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductId,Name,StinkRating,Description,Price,Size,CategoryId")] Product product, IFormFile? Photo)
         {
             if (ModelState.IsValid)
             {
+                // check for a Photo upload & process if any
+                if (Photo != null)
+                {
+                    var fileName = UploadPhoto(Photo);
+                    product.Photo = fileName;
+                }
+
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -82,7 +95,7 @@ namespace CheeseAndThankYou.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories.OrderBy(c=>c.Name), "CategoryId", "Name", product.CategoryId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories.OrderBy(c => c.Name), "CategoryId", "Name", product.CategoryId);
             return View(product);
         }
 
@@ -91,7 +104,7 @@ namespace CheeseAndThankYou.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,Name,StinkRating,Description,Price,Photo,Size,CategoryId")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,Name,StinkRating,Description,Price,Size,CategoryId")] Product product, IFormFile? Photo, String? CurrentPhoto)
         {
             if (id != product.ProductId)
             {
@@ -102,6 +115,18 @@ namespace CheeseAndThankYou.Controllers
             {
                 try
                 {
+                    // upload photo if any
+                    if (Photo != null)
+                    {
+                        var fileName = UploadPhoto(Photo);
+                        product.Photo = fileName;
+                    }
+                    else
+                    {
+                        // keep current photo if any
+                        product.Photo = CurrentPhoto;
+                    }
+
                     _context.Update(product);
                     await _context.SaveChangesAsync();
                 }
@@ -159,6 +184,27 @@ namespace CheeseAndThankYou.Controllers
         private bool ProductExists(int id)
         {
             return _context.Products.Any(e => e.ProductId == id);
+        }
+
+        private string UploadPhoto(IFormFile Photo)
+        {
+            // get temp path of uploaded file   
+            var filePath = Path.GetTempFileName();
+
+            // create unique name to prevent overwriting using Global Unique Idendifier (GUID)
+            // e.g. photo.jpg => a239847-photo.jpg
+            var fileName = Guid.NewGuid().ToString() + "-" + Photo.FileName;
+
+            // set dynamic destination path 
+            var uploadPath = System.IO.Directory.GetCurrentDirectory() + "\\wwwroot\\img\\products\\" + fileName;
+
+            // copy file
+            using (var stream = new FileStream(uploadPath, FileMode.Create))
+            {
+                Photo.CopyTo(stream);
+            }
+
+            return fileName;
         }
     }
 }

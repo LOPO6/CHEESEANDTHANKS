@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheeseAndThankYou")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bff44be13a0bba66b851b3a9f8e1a0066306849c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheeseAndThankYou")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheeseAndThankYou")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
